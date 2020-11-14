@@ -19,3 +19,32 @@ $("#19Block").attr("data-time", moment("7:00 pm", "h:mm a").format("HH"));
 $("#20Block").attr("data-time", moment("8:00 pm", "h:mm a").format("HH"));
 
 $(document).ready(function(){
+
+    //get input events from stored local data
+    //calls function
+    renderEvents();
+
+    //set current day
+    var currentDay = moment().format("dddd,MMMM Do");
+    $("#currentDay").text(currentDay);
+
+    //change time block colors
+    for (var i=1; i <=12; i++){
+        var inputTime = $("#" + i + "Block").attr("data-time");
+        var inputTimeInt = parseInt(inputTime);
+
+        //if time block is current time
+        if(currentTimeInt === inputTimeInt){
+            $("#" + i + "Block").addClass("present");
+        }
+
+        //if time block is in the past
+        if(currentTimeInt > inputTimeInt){
+            $("#" + i + "Row").addClass("past");
+        }
+
+          //if time block is in the future
+          if(currentTimeInt < inputTimeInt){
+            $("#" + i + "Row").addClass("future");
+        }
+    }
