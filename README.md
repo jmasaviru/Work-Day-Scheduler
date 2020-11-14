@@ -4,15 +4,22 @@ This is a simple daytime calendar application that allows the user to save event
 Moment.js library is in use to work with date and time.
 
 Acceptance Criteria
-This is a daily planner to help create a schedule.
+This is daily planner helps the user create a schedule.
 When the app is accessed the user is presented with the current day displayed at the top of the calendar.
-The user can scroll down to see the different timeblocks, standardized to normal business hours.
-Each timeblock is color coded to indicate whether it is in the past, present or future.
-Past time blocks are indicated as grey. The present timeblock will appear as red, and future timeblocks will be green.
-The user can click within a timeblock to insert text to specify an event.
-The user can click the calendar icon for that specific timeblock to save the text to local storage.
+The user can scroll down to view each time-block, standardized to normal business working hours (9AM - 5PM)
+The day planner is color coded to indicate past, current and future time-blocks.
+Past time-blocks appear grey while the current timeblock is red, and the future time-blocks are green.
+The user can click within a time-block to input text to specify an event.
+The calendar icon at the end of timeblock can be used to save the text to local storage.
 
-When the users refresh the pages, the saved events are present.
+When the users refresh the pages, the saved events are presented.
 
-The following animation demonstrates the application functionality:
+The following image demonstrates the application functionality:
 
+![Work Day Scheduler](./Images/Screenshot Day Scheduler.png)
+
+## Links
+
+* Work Day Scheduler URL: (https://jmasaviru.github.io/Weather-Dashboard/
+
+* Work Day Scheduler GitHub repository: (https://github.com/jmasaviru/Weather-Dashboard)
