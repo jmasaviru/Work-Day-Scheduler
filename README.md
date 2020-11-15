@@ -16,7 +16,7 @@ When the users refresh the pages, the saved events are presented.
 
 The following image demonstrates the application functionality:
 
-![Work Day Scheduler](./Images/ScreenshotDayScheduler2)
+![Work Day Scheduler](./Images/ScreenshotDayScheduler2.png)
 
 ## Links
 
