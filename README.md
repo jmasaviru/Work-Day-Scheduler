@@ -16,10 +16,10 @@ When the users refresh the pages, the saved events are presented.
 
 The following image demonstrates the application functionality:
 
-![Work Day Scheduler](./Images/Screenshot Day Scheduler.png)
+![Work Day Scheduler](./Images/ScreenshotDayScheduler2)
 
 ## Links
 
-* Work Day Scheduler URL: (https://jmasaviru.github.io/Weather-Dashboard/
+* Work Day Scheduler URL:  https://jmasaviru.github.io/Work-Day-Scheduler/
 
-* Work Day Scheduler GitHub repository: (https://github.com/jmasaviru/Weather-Dashboard)
+* Work Day Scheduler GitHub repository: (https://github.com/jmasaviru/Work-Day-Scheduler)
